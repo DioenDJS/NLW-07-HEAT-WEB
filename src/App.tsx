@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import styles from './App.module.scss';
 
 export function App() {
 
   return (
-    <div className="App">
+    <main className={styles.contentWrapper}>
       <h1>Hello World!</h1>
-    </div>
+    </main>
   )
 }
 
