@@ -1,9 +1,10 @@
-import { api } from '../../services/api';
+import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
+import { api } from '../../services/api';
+
 import styles from './styles.module.scss';
 
 import logoImg from '../../assets/assets/logo.svg';
-import { useEffect, useState } from 'react';
 
 
 type Message = {
